@@ -1,6 +1,7 @@
 import hashlib
 import time
 
+# Block protocol
 class Block:
     def __init__(self, index, previous_hash, timestamp, data, hash):
         self.index = index
