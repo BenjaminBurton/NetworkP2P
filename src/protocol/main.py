@@ -4,7 +4,7 @@ import threading
 # List of connected peers
 peers = []
 
-# Function to handle incoming connections
+# Function handling incoming connections
 
 
 def handle_connection(connection, address):
